@@ -3,7 +3,6 @@ import React , { Component } from 'react';
 import {BrowserRouter as Router , Route, withRouter} from "react-router-dom" ;
 import "bootstrap/dist/css/bootstrap.min.css" ;
 import "../../App.css" ;
-import image from "./sky2.jpg" ;
 
 class AdminNavbar extends Component{
 	constructor(props){

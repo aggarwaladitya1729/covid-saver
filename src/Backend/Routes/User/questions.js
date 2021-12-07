@@ -1,6 +1,6 @@
 const express = require("express") ;
 var router = express.Router() ;
-const Question = require("../Models/questions.model") ;
+const Question = require("../../Models/questions.model") ;
 
 router.get("/questions" , (req , res) => {
     //console.log("Hello there in question backend") ;

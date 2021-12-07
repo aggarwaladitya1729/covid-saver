@@ -22,9 +22,9 @@ const landingPage = require("./Routes/Common/landingpage") ;
 const signup = require("./Routes/Common/signup") ;
 const login = require("./Routes/Common/login") ;
 
-const uri = "Add your MongoDB URI" ;
+const uri = "Add your own MongoDB URI" ;
 
-mongoose.connect(uri , {useNewUrlParser : true , useUnifiedTopology : true , useFindAndModify:false}) ;
+mongoose.connect(uri , {useNewUrlParser : true , useUnifiedTopology : true}) ;
 
 const db = mongoose.connection ;
 db.on('error' , console.error.bind(console , 'Connection Error : ')) ;

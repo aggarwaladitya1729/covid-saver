@@ -3,7 +3,7 @@ import ReactDOM from "react-dom" ;
 import {Link} from "react-router-dom" ;
 import "../../App.css" ;
 import axios from "axios" ;
-import image from "./tree.jpg" ;
+import image from "../../Images/UserImages/tree.jpg" ;
 
 class EditProfile extends Component {
 

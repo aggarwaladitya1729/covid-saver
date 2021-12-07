@@ -4,7 +4,7 @@ import {Link} from "react-router-dom" ;
 import {withRouter} from "react-router-dom" ;
 import axios from "axios" ;
 import "../../App.css" ;
-import image from "./road.jpg" ;
+import image from "../../Images/AdminImages/road.jpg" ;
 
 
 class PublishNotification extends Component {

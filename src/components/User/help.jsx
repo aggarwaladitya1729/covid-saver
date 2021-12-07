@@ -3,7 +3,7 @@ import ReactDOM from "react-dom" ;
 import {Link} from "react-router-dom" ;
 import "../../App.css" ;
 import axios from "axios" ;
-import notifImage from "./notification.png" ;
+import notifImage from "../../Images/UserImages/notification.png" ;
 
 
 class Notification extends Component {

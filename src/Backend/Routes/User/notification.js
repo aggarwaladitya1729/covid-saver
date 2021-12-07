@@ -1,6 +1,6 @@
 const express = require("express") ;
 var router = express.Router() ;
-const Notification = require("../Models/notification.model") ;
+const Notification = require("../../Models/notification.model") ;
 
 
 router.post("/receive" , (req , res) => {

@@ -4,10 +4,14 @@ import { Component } from 'react';
 import {BrowserRouter as Router , Route , Redirect} from "react-router-dom" ;
 import "bootstrap/dist/css/bootstrap.min.css" ;
 //import {withRouter} from "react-router-dom" ;
-import LandingPage from "./components/landingPage" ;
-import Signup from "./components/signup" ;
-import Login from "./components/login" ;
-import User from "./components/user" ;
+
+// Components common to both user and admin
+import LandingPage from "./components/Common/landingPage" ;
+import Signup from "./components/Common/signup" ;
+import Login from "./components/Common/login" ;
+
+// User Component
+import User from "./components/User/user" ;
 import Home from "./components/User/home" ;
 import Assessment from "./components/User/assessment" ;
 import Notification from "./components/User/notification" ;
@@ -16,13 +20,13 @@ import Guideline from "./components/User/guideline" ;
 import EditProfile from "./components/User/editProfile" ;
 import Help from "./components/User/help" ;
 
-
+// Admin components
 import Admin from "./components/Admin/admin" ;
 import AdminHome from "./components/Admin/home" ;
 import PublishNotification from "./components/Admin/publishNotification" ;
 import ViewFeedback from "./components/Admin/feedback" ;
-import ViewNotification from "./components/Admin/viewnotifications" ;
-import PublishGuideline from "./components/Admin/publishguideline" ;
+import ViewNotification from "./components/Admin/viewNotification" ;
+import PublishGuideline from "./components/Admin/publishGuideline" ;
 import AdminAssessment from "./components/Admin/assessment" ;
 //import Navbar from "./components/navbar" ;
 

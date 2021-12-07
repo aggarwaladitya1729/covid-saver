@@ -3,7 +3,7 @@ import ReactDOM from "react-dom" ;
 import {Link} from "react-router-dom" ;
 import "../../App.css" ;
 import axios from "axios" ;
-import image from "./feedback3.jpg" ;
+import image from "../../Images/AdminImages/feedback3.jpg" ;
 
 class Feedback extends Component {
 

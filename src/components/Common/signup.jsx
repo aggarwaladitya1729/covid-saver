@@ -2,7 +2,7 @@ import react , {Component, useState} from "react" ;
 import ReactDOM, { render } from "react-dom" ;
 import {Link , withRouter} from "react-router-dom" ;
 import axios from "axios" ;
-import image from "./corona.jpg" ;
+import image from "../../Images/CommonImages/corona.jpg" ;
 
 class Signup extends Component {
 

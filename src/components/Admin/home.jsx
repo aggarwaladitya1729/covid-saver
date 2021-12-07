@@ -2,7 +2,7 @@ import react , {Component} from "react" ;
 import ReactDOM from "react-dom" ;
 import {Link} from "react-router-dom" ;
 import "../../App.css" ;
-import image from "../rock.jpg" ;
+import image from "../../Images/AdminImages/rock.jpg" ;
 
 class Home extends Component {
 

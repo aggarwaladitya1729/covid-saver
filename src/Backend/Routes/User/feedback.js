@@ -1,6 +1,6 @@
 const express = require("express") ;
 var router = express.Router() ;
-const Feedback = require("../Models/feedback.model") ;
+const Feedback = require("../../Models/feedback.model") ;
 
 // router.get("/" , (req , res) => {
 //     console.log("hello world in feedback") ;

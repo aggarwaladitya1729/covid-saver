@@ -4,7 +4,7 @@ import {Link} from "react-router-dom" ;
 import {withRouter} from "react-router-dom" ;
 import axios from "axios" ;
 import "../../App.css" ;
-import image from "./puzzle.jpg" ;
+import image from "../../Images/AdminImages/puzzle.jpg" ;
 
 
 class PublishGuideline extends Component {

@@ -4,10 +4,10 @@ import {Link} from "react-router-dom" ;
 import "../../App.css" ;
 import axios from "axios" ;
 import {withRouter} from "react-router-dom" ;
-import plane from "./plane.jpg" ;
-import covid from "./covid.png" ;
-import dna from "./dna.jpg" ;
-import meet from "./meeting.jpg" ;
+import plane from "../../Images/UserImages/plane.jpg" ;
+import covid from "../../Images/UserImages/covid.png" ;
+import dna from "../../Images/UserImages/dna.jpg" ;
+import meet from "../../Images/UserImages/meeting.jpg" ;
 
 class Assessment extends Component {
 

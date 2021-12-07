@@ -4,7 +4,7 @@ import {Link} from "react-router-dom" ;
 import {withRouter} from "react-router-dom" ;
 import axios from "axios" ;
 import "../../App.css" ;
-import feedImage from "./coffee.jpg" ;
+import feedImage from "../../Images/UserImages/coffee.jpg" ;
 
 
 class Feedback extends Component {

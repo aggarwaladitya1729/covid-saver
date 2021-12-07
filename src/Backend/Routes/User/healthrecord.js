@@ -1,6 +1,6 @@
 const express = require("express") ;
 var router = express.Router() ;
-const HealthRecord = require("../Models/health_record.model") ;
+const HealthRecord = require("../../Models/health_record.model") ;
 
 
 router.post("/receive" , (req , res) => {

@@ -13,15 +13,41 @@
   }
 }
 
+.nav-hover:hover{
+  background-color: rgba(255, 174, 127, 0.829) !important;
+  
+}
+
+.nav-font{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:bold;
+  color: rgb(19, 61, 247) ;
+}
+
+.navAdi{
+  background-color: rgba(243, 143, 113, 0.37)  !important  ;
+  z-index: 10;
+  position: fixed !important;
+  min-width: 100vw;
+}
+
+input[type=text]{
+  opacity: 0.5;
+}
+
+.card:hover {
+  transform:scale(1.05);
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #212521e7;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(45, 245, 55);
 }
 
 .App-link {

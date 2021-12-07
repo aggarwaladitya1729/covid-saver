@@ -3,7 +3,7 @@ import ReactDOM, { render } from "react-dom" ;
 import {Link} from "react-router-dom" ;
 import {withRouter} from "react-router-dom" ;
 import axios from "axios" ;
-import image from "./road.jpg" ;
+import image from "../../Images/CommonImages/road.jpg" ;
 
 
 class Login extends Component {

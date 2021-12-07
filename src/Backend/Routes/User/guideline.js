@@ -1,6 +1,6 @@
 const express = require("express") ;
 var router = express.Router() ;
-const Guideline = require("../Models/guideline.model") ;
+const Guideline = require("../../Models/guideline.model") ;
 
 router.get("/receive" , (req , res) => {
     //console.log("Hello there in question backend") ;

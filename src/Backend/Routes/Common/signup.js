@@ -1,7 +1,7 @@
 const express = require("express") ;
 var router = express.Router() ;
-const Student = require("../Models/student.model") ;
-const Staff = require("../Models/staff.model") ;
+const Student = require("../../Models/student.model") ;
+const Staff = require("../../Models/staff.model") ;
 
 
 router.post("/add" , (req , res) => {
